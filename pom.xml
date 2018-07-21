@@ -52,7 +52,12 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>5.0.6.RELEASE</version>
 		</dependency>
-
+<!-- spring  test -->
+	<dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-test</artifactId>
+        <version>5.0.6.RELEASE</version>
+    </dependency>
 		<!-- mybatis -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
@@ -106,7 +111,7 @@
 			<version>2.3.1</version>
 			<scope>provided</scope>
 		</dependency>
-
+		
 		<!-- springmvc json -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
