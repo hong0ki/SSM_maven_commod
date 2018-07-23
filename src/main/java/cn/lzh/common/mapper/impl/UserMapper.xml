@@ -5,12 +5,12 @@
   
   <mapper namespace="cn.lzh.common.mapper.UserMapper">
   
-  <select id="getUserByname" parameterType="String" resultType="User">
+  <select id="getUserByname" parameterType="String" resultType="cn.lzh.common.po.User">
   	select * from user where username=#{username}
   
   </select>
   
-  <select id="getAllUser"  resultType="User">
+  <select id="getAllUser"  resultType="cn.lzh.common.po.User">
   	select * from user 
   
   </select>
